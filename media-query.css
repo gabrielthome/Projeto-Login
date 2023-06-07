@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/* Typical device Breakpoints
+--------------------------
+Pequenas Telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+/*Paleta de cores*/
+:root{
+    --cor1:#22D4D6;
+    --cor2:#24E0AE;
+    --cor3:#2BCA72;
+    --cor4:#24E043;
+    --cor5:#3CD622;
+}
+
+@media (min-width: 768px) {
+    
+    body{
+        background-image: linear-gradient(to top, var(--cor2), var(--cor3) );
+    }
+
+    section{
+        width: 80vw;
+    }
+    
+    div#Iimagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+
+    } 
+
+    div#Iformulario{
+        float: right;
+        width: 70%;
+        height: 100%;
+
+    }
+
+}
+
+@media (min-width: 992px){
+
+    section{
+        width: 950px;
+    }
+    
+    div#Iimagem{
+        width: 40%;
+
+    } 
+
+    div#Iformulario{
+
+        width: 60%;
+
+
+    }
+
+
+
+}
+
+@media (min-width: 1200px){
+
+
+
+}

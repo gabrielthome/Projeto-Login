@@ -30,12 +30,13 @@ Grandes telas: acima de 1200px
         min-height: 250px;
         width: 90vw;
         height: 80vh;
-        max-height: 250px;
+        max-height: 300px;
     }
 
     div#Iimagem{
         min-height: 0px;
         background-position: 30% 15%;
+        
       
     }
     div#Iformulario{
@@ -85,17 +86,17 @@ Grandes telas: acima de 1200px
         width: 80vw;
     }
     
-    div#Iimagem{
+    section > div#Iimagem{
         float: left;
         width: 30%;
         height: 100%;
 
     } 
 
-    div#Iformulario{
+    section >  div#Iformulario{
         float: right;
         width: 70%;
-        height: 100%;
+       
 
     }
 

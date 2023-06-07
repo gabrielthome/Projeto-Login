@@ -18,7 +18,7 @@ Grandes telas: acima de 1200px
     --cor5:#3CD622;
 }
 
-@media (max-height: 450px){
+@media (orientation:landscape)and (max-height: 450px){
 
     body{
         background-color: var(--cor3);

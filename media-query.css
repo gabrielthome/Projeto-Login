@@ -11,34 +11,67 @@ Grandes telas: acima de 1200px
 
 /*Paleta de cores*/
 :root{
-    --cor1:#22D4D6;
+    --cor1:#98e0e2;
     --cor2:#24E0AE;
     --cor3:#2BCA72;
     --cor4:#24E043;
     --cor5:#3CD622;
 }
 
-@media (orientation:landscape)and (max-height: 450px){
+@media (orientation:landscape) and (max-height: 450px){
 
     body{
         background-color: var(--cor3);
+        
 
     }
 
     section{
+        min-height: 250px;
         width: 90vw;
         height: 80vh;
+        max-height: 250px;
     }
 
     div#Iimagem{
+        min-height: 0px;
         background-position: 30% 15%;
       
     }
     div#Iformulario{
+        padding-top: 2px;
         font-size: 0.8em;
     }
 
+    div#Iformulario h1{
+        margin: 0px;
+        
+    }
 
+    div.campo{
+        height: 30px ;
+        border: 3px solid var(--cor3)
+    }
+
+    div.campo i{
+        font-size: 1.5em;
+        width: 30px;
+        
+    }
+    div.campo input{
+        width: calc(100% - 34px);
+        transform: translateY(-6px);
+    }
+
+    div#Iformulario input[type=submit]{
+        width: 30%;
+        float: left;
+    }
+
+    div#Iformulario input[type=button]{
+        width: 40%;
+        float: right;
+    }
 
 }
 
@@ -76,11 +109,12 @@ Grandes telas: acima de 1200px
     
     div#Iimagem{
         width: 40%;
-
+        float: right;
+        height: 100%
     } 
 
     div#Iformulario{
-
+        float: left;
         width: 60%;
 
 
@@ -91,6 +125,19 @@ Grandes telas: acima de 1200px
 }
 
 @media (min-width: 1200px){
+
+    div#Iformulario h1{
+        font-size: 2em;
+        
+
+    }
+
+
+    div#Iformulario p{
+        font-size: 1.5em;
+        
+
+    }
 
 
 

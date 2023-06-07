@@ -28,14 +28,16 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
 
-                <form action="">
-                    <div>
+                <form action="arquivo.php" autocomplete="on" method="post">
+                    <div class="campo">
                         <i class="material-symbols-outlined">person</i>
-                        <input type="text" id="Iusuario" required>
+                        <input type="email" id="Iemail" autocomplete="email" placeholder="Informe o email" required>
+                        <label for="Iemail">Usuario</label>
                     </div>
-                    <div>
+                    <div class="campo">
                         <i class="material-symbols-outlined">key</i>
-                        <input type="password" id="Isenha" required>
+                        <input type="password" id="Isenha" autocomplete="current-password" placeholder="Senha" required>
+                        <label for="Isenha">Senha</label>
                     </div>
                     <input type="submit" id="IEntrar" value="Entrar">
                     <input type="button" id="Iesqueci" value="Esqueci minha senha">

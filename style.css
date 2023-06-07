@@ -45,6 +45,8 @@ section{
     overflow: hidden;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.492);
+    transition-timing-function: ease;
+    transition: width .2s, height .2s;
 
     
 

@@ -18,6 +18,27 @@ Grandes telas: acima de 1200px
     --cor5:#3CD622;
 }
 
+@media (max-height: 450px){
+
+    body{
+        background-color: var(--cor3);
+
+    }
+
+    section{
+        width: 90vw;
+        height: 80vh;
+    }
+
+    div#Iimagem{
+        background-position: 30% 15%;
+      
+    }
+
+
+
+}
+
 @media (min-width: 768px) {
     
     body{
